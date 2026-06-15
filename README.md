@@ -73,6 +73,13 @@ Real-world demand-planning dashboard for a UAE commercial-vehicle distributor. M
 
 ---
 
+## 🛠️ Recently Shipped
+<!-- RECENT_REPOS:START -->
+<!-- This section auto-updates daily via GitHub Actions -->
+<!-- RECENT_REPOS:END -->
+
+---
+
 ## 📈 GitHub Activity
 
 <div align="center">

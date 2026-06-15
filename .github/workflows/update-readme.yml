@@ -1,0 +1,59 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:        # allow manual run from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-readme.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate "Recently Shipped" section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          # Pull the 6 most recently pushed non-fork repos (excluding the profile repo itself)
+          BLOCK=$(gh repo list Vinayak682 --no-archived --source --limit 100 \
+            --json name,description,url,pushedAt,isFork \
+            --jq 'map(select(.isFork==false and .name!="Vinayak682"))
+                  | sort_by(.pushedAt) | reverse | .[0:6]
+                  | map("- **[\(.name)](\(.url))** — \(.description // "No description yet") _(updated \(.pushedAt[0:10]))_")
+                  | join("\n")')
+
+          python3 - "$BLOCK" <<'PY'
+          import re, sys
+          block = sys.argv[1]
+          with open("README.md", "r", encoding="utf-8") as f:
+              readme = f.read()
+          new = ("<!-- RECENT_REPOS:START -->\n"
+                 "<!-- This section auto-updates daily via GitHub Actions -->\n"
+                 f"{block}\n"
+                 "<!-- RECENT_REPOS:END -->")
+          readme = re.sub(r"<!-- RECENT_REPOS:START -->.*?<!-- RECENT_REPOS:END -->",
+                          new, readme, flags=re.DOTALL)
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(readme)
+          PY
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-update Recently Shipped section"
+            git push
+          else
+            echo "No changes to commit."
+          fi
