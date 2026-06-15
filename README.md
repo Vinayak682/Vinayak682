@@ -8,7 +8,7 @@
 [![LinkedIn Followers](https://img.shields.io/badge/LinkedIn-7%2C000%2B%20Followers-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=004182)](https://www.linkedin.com/in/vinayakbhadani/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-1a1a2e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vinayak682.github.io/vinayakbhadani.github.io/)
 [![Email](https://img.shields.io/badge/Email-Reach_out-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinayakbhadani1998@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B971%2055%20627%200561-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/971556270561)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/971556270561)
 [![Location](https://img.shields.io/badge/Dubai-UAE-success?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 [![Follow on LinkedIn](https://img.shields.io/badge/%F0%9F%91%A5%20Join%207%2C000%2B%20professionals%20following%20my%20work-Follow-0a66c2?style=flat-square&labelColor=004182&color=0a66c2)](https://www.linkedin.com/in/vinayakbhadani/)
