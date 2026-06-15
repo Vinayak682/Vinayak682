@@ -5,12 +5,12 @@
 
 *3 years running real S&OP cycles in the UAE — now shipping AI products that fix the problems I lived every day.*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-0a66c2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vinayak682.github.io/vinayakbhadani.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinayak-bhadani)
+[![LinkedIn Followers](https://img.shields.io/badge/LinkedIn-7%2C000%2B%20Followers-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=004182)](https://linkedin.com/in/vinayak-bhadani)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-1a1a2e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vinayak682.github.io/vinayakbhadani.github.io/)
 [![Email](https://img.shields.io/badge/Email-Reach_out-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinayakbhadani1998@gmail.com)
 [![Location](https://img.shields.io/badge/Dubai-UAE-success?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
-![Profile Views](https://komarev.com/ghpvc/?username=Vinayak682&style=flat-square&color=0a66c2)
+[![Follow on LinkedIn](https://img.shields.io/badge/%F0%9F%91%A5%20Join%207%2C000%2B%20professionals%20following%20my%20work-Follow-0a66c2?style=flat-square&labelColor=004182&color=0a66c2)](https://linkedin.com/in/vinayak-bhadani)
 
 </div>
 
