@@ -3,20 +3,24 @@
 # Vinayak Bhadani
 ### Demand Planning Analyst → AI Supply Chain Builder 🇦🇪
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-vinayakbhadani.github.io-0a66c2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vinayak682.github.io/vinayakbhadani.github.io/)
+*3 years running real S&OP cycles in the UAE — now shipping AI products that fix the problems I lived every day.*
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-0a66c2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vinayak682.github.io/vinayakbhadani.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinayak-bhadani)
-[![S&OP Copilot](https://img.shields.io/badge/S%26OP_Copilot-Live_App-3b82f6?style=for-the-badge&logo=vercel&logoColor=white)](https://sop-copilot.vercel.app)
-[![Event Surge Planner](https://img.shields.io/badge/Event_Surge_Planner-Live_App-10b981?style=for-the-badge&logo=vercel&logoColor=white)](https://event-surge-planner.vercel.app)
+[![Email](https://img.shields.io/badge/Email-Reach_out-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinayakbhadani1998@gmail.com)
+[![Location](https://img.shields.io/badge/Dubai-UAE-success?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Vinayak682&style=flat-square&color=0a66c2)
 
 </div>
 
 ---
 
-## About Me
+## 👋 About Me
 
-3 years in UAE demand planning → now building AI tools for the supply chain problems I lived every day.
+MBA in Global Logistics & Supply Chain Management. Based in Dubai. I've run S&OP cycles in Excel for UAE FMCG manufacturers, watched Ramadan planning go wrong every year because generic forecasting tools don't know the GCC calendar — and decided to fix it with code.
 
-MBA in Global Logistics & Supply Chain Management. Based in Dubai. I've run S&OP cycles in Excel for UAE FMCG manufacturers, watched Ramadan planning go wrong every year because generic forecasting tools don't know the GCC calendar, and decided to fix it with code.
+**Today I build full-stack AI products** (Claude API · Next.js · Supabase) that turn supply-chain pain into shipped, usable software. Everything below is live and clickable.
 
 ---
 
@@ -24,9 +28,12 @@ MBA in Global Logistics & Supply Chain Management. Based in Dubai. I've run S&OP
 
 | Product | What it does | Stack |
 |---------|-------------|-------|
-| **[S&OP Copilot](https://sop-copilot.vercel.app)** | Runs Sunday night — delivers your Monday meeting brief before you wake up. AI-generated briefing pack for UAE/GCC manufacturers | Claude API · Next.js 16 · Supabase |
-| **[GCC Event Surge Planner](https://event-surge-planner.vercel.app)** | Ramadan shifts 11 days per year. Generic tools miss the peak every time. Per-SKU demand forecasting for Ramadan, Eid, DSF, White Friday, National Day | Claude API · Next.js 16 · Supabase |
-| **[AI Supply Chain Platform](https://vinayak682.github.io/ai-supply-chain-platform/)** | OTIF Compliance Copilot + Exception Brain — two AI modules for supply chain exception management | Python · Claude API · Supabase |
+| 🆕 **[AlphaOS](https://github.com/Vinayak682/alphaos)** | AI-powered multi-market trading platform — TradingView charts, copy-trading & Claude-driven signals across US, India, UAE & Crypto markets | Next.js · TypeScript · Claude API |
+| 🆕 **[Project Autopilot](https://github.com/Vinayak682/project-autopilot)** | Production-grade supply-chain intelligence platform with real-time metrics, live demos & autonomous AI-agent decision feed | Next.js · TypeScript · Supabase · Framer Motion |
+| 🆕 **[Emirates Pride Inventory](https://vinayak682.github.io/emirates-pride-inventory-management/)** | iPad-optimised inventory system in **daily use** across Emirates Pride retail outlets in Dubai — GRN, stock transfers, sales & management reporting | HTML · JS · GitHub Pages (PWA) |
+| **[S&OP Copilot](https://sop-copilot.vercel.app)** | Runs Sunday night, delivers your Monday meeting brief before you wake up — AI briefing pack for UAE/GCC manufacturers | Claude API · Next.js 16 · Supabase |
+| **[GCC Event Surge Planner](https://event-surge-planner.vercel.app)** | Per-SKU demand forecasting for Ramadan, Eid, DSF, White Friday & National Day. The only tool that knows Ramadan moves 11 days a year | Claude API · Next.js 16 · Supabase |
+| **[AI Supply Chain Platform](https://vinayak682.github.io/ai-supply-chain-platform/)** | OTIF Compliance Copilot + Exception Brain — two AI modules for supply-chain exception management | Python · Claude API · Supabase |
 
 ---
 
@@ -34,8 +41,8 @@ MBA in Global Logistics & Supply Chain Management. Based in Dubai. I've run S&OP
 
 ```
 Languages:    Python · TypeScript · SQL · DAX
-AI/ML:        Claude API · Prompt Engineering · Demand Forecasting Models
-Frontend:     Next.js 16 · TailwindCSS v4 · shadcn/ui · React
+AI/ML:        Claude API · Prompt Engineering · Demand Forecasting (ARIMA, Holt-Winters, ML ensemble)
+Frontend:     Next.js 16 · TailwindCSS v4 · shadcn/ui · React · Framer Motion
 Backend:      Supabase (PostgreSQL + Auth + RLS) · REST APIs
 BI Tools:     Power BI · Excel (Advanced) · Google Sheets
 Supply Chain: S&OP · Demand Planning · Procurement · OTIF · Inventory Optimization
@@ -46,23 +53,40 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 
 ## 📊 Featured Projects
 
+### 📈 [AlphaOS — AI Multi-Market Trading Platform](https://github.com/Vinayak682/alphaos)
+AI-powered trading workspace unifying US, India, UAE and Crypto markets. TradingView-style charting, copy-trading, and Claude-driven market analysis in one Next.js app.
+
+### 🤖 [Project Autopilot — Supply Chain Intelligence](https://github.com/Vinayak682/project-autopilot)
+Production-ready B2B platform: real-time Supabase metrics, a Twitter-style autonomous AI-agent decision feed, 4 interactive live demos, 60fps Framer Motion / GSAP animations, TypeScript strict mode + CI/CD.
+
+### 📦 [Emirates Pride Inventory System](https://vinayak682.github.io/emirates-pride-inventory-management/)
+Real, in-production iPad inventory app for Emirates Pride's Dubai retail outlets — GRN, stock transfers, sales tracking, tester management and management reporting. Installable as a home-screen PWA.
+
 ### 🧠 [SupplyMind — S&OP Copilot](https://sop-copilot.vercel.app)
-AI-powered S&OP briefing pack generator. Pulls live data, runs Claude API analysis, emails a decision-ready brief to the leadership team before Monday's 8 AM meeting. Built specifically for JAFZA/DAFZA free zone manufacturers who run S&OP on Excel.
+AI S&OP briefing-pack generator. Pulls live data, runs Claude API analysis, and emails a decision-ready brief to leadership before Monday's 8 AM meeting. Built for JAFZA/DAFZA free-zone manufacturers running S&OP on Excel.
 
 ### 🌙 [GCC Event Surge Planner](https://event-surge-planner.vercel.app)
-GCC-event-aware demand forecasting with pre-seeded 2025–2027 Ramadan, Eid, DSF, White Friday, and National Day surge multipliers. Per-SKU forecasts with confidence bands. The only forecasting tool that knows Ramadan moves.
-
-### 📦 [AI Supply Chain Platform](https://github.com/Vinayak682/ai-supply-chain-platform)
-Two-module AI platform: **Compliance Shield** (OTIF breach prediction + root cause analysis) and **Neural Command** (exception prioritization engine). 21 tables, 36K+ rows of synthetic supply chain data in Supabase.
+GCC-event-aware forecasting with pre-seeded 2025–2027 Ramadan, Eid, DSF, White Friday and National Day surge multipliers. Per-SKU forecasts with confidence bands.
 
 ### 📊 [Fuso Demand Dashboard](https://github.com/Vinayak682/fuso-demand-dashboard)
-Real-world demand planning dashboard built for a UAE commercial vehicle distributor. Multi-model forecasting (ARIMA, Holt-Winters, ML ensemble) with interactive Power BI-style visualizations.
+Real-world demand-planning dashboard for a UAE commercial-vehicle distributor. Multi-model forecasting (ARIMA, Holt-Winters, ML ensemble) with interactive visualizations.
+
+---
+
+## 📈 GitHub Activity
+
+<div align="center">
+
+![Vinayak's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vinayak682&show_icons=true&theme=react&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vinayak682&layout=compact&theme=react&hide_border=true&langs_count=8)
+
+</div>
 
 ---
 
 ## 📫 Let's Connect
 
-I'm actively targeting senior Demand Planning / Supply Chain roles across UAE's top FMCG, Retail, and Q-Commerce companies.
+I'm actively targeting senior **Demand Planning / Supply Chain** roles across UAE's top FMCG, Retail, and Q-Commerce companies — and open to AI-product collaborations.
 
 - **Portfolio:** [vinayak682.github.io/vinayakbhadani.github.io](https://vinayak682.github.io/vinayakbhadani.github.io/)
 - **LinkedIn:** [linkedin.com/in/vinayak-bhadani](https://linkedin.com/in/vinayak-bhadani)
@@ -72,5 +96,5 @@ I'm actively targeting senior Demand Planning / Supply Chain roles across UAE's 
 ---
 
 <div align="center">
-<i>"I don't just plan supply chains — I build tools that plan them better."</i>
+<i>"I don't just plan supply chains — I build the tools that plan them better."</i>
 </div>
