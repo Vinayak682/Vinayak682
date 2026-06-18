@@ -77,12 +77,12 @@ Real-world demand-planning dashboard for a UAE commercial-vehicle distributor. M
 ## 🛠️ Recently Shipped
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
+- **[emirates-pride-inventory-management](https://github.com/Vinayak682/emirates-pride-inventory-management)** — iPad-optimised inventory management system for Emirates Pride retail outlets across Dubai — GRN, stock transfers, sales tracking, tester management & management reporting _(updated 2026-06-18)_
 - **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-06-16)_
 - **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-06-16)_
 - **[gcc-simulator](https://github.com/Vinayak682/gcc-simulator)** — GCC Business Simulator — Next.js 15 · Supabase · Google Gemini · 8 AI agents. by NayakLabs. _(updated 2026-06-15)_
 - **[project-autopilot](https://github.com/Vinayak682/project-autopilot)** — AI-powered supply chain intelligence platform — real-time metrics, live demos & autonomous AI-agent decision feed. Next.js + TypeScript + Supabase. _(updated 2026-06-14)_
 - **[project-autopilot-agents](https://github.com/Vinayak682/project-autopilot-agents)** — Python AI agents powering Project Autopilot — autonomous supply-chain decision-making engine. _(updated 2026-06-14)_
-- **[alphaos](https://github.com/Vinayak682/alphaos)** — AlphaOS — AI-Powered Multi-Market Trading Platform | TradingView + Copy Trading + Claude AI | US, India, UAE, Crypto _(updated 2026-06-14)_
 <!-- RECENT_REPOS:END -->
 
 ---
