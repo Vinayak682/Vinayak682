@@ -29,6 +29,7 @@ MBA in Global Logistics & Supply Chain Management. Based in Dubai. I've run S&OP
 
 | Product | What it does | Stack |
 |---------|-------------|-------|
+| 🆕 **[Meridian](https://github.com/Vinayak682/meridian)** | CFA-level multi-market equity-research terminal (US · UK · UAE · Singapore) — live TradingView data + a Supabase RAG brain with an auditable multi-agent research pipeline | Supabase · pgvector · Deno Edge Functions |
 | 🆕 **[AlphaOS](https://github.com/Vinayak682/alphaos)** | AI-powered multi-market trading platform — TradingView charts, copy-trading & Claude-driven signals across US, India, UAE & Crypto markets | Next.js · TypeScript · Claude API |
 | 🆕 **[Project Autopilot](https://github.com/Vinayak682/project-autopilot)** | Production-grade supply-chain intelligence platform with real-time metrics, live demos & autonomous AI-agent decision feed | Next.js · TypeScript · Supabase · Framer Motion |
 | 🆕 **[Emirates Pride Inventory](https://vinayak682.github.io/emirates-pride-inventory-management/)** | iPad-optimised inventory system in **daily use** across Emirates Pride retail outlets in Dubai — GRN, stock transfers, sales & management reporting | HTML · JS · GitHub Pages (PWA) |
@@ -53,6 +54,9 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 ---
 
 ## 📊 Featured Projects
+
+### 📊 [Meridian — CFA-Level Multi-Market Research Terminal](https://github.com/Vinayak682/meridian)
+Multi-market (US · UK · UAE · Singapore) equity-research terminal with a **Supabase brain**: live TradingView market data, a CFA-grade analyst grounded in your own documents via RAG (pgvector hybrid search with Reciprocal Rank Fusion), and an **auditable multi-agent** pipeline (data → valuation → risk → skeptic → writer) running on Deno edge functions. Every table RLS-guarded. Analytical tooling — not investment advice.
 
 ### 📈 [AlphaOS — AI Multi-Market Trading Platform](https://github.com/Vinayak682/alphaos)
 AI-powered trading workspace unifying US, India, UAE and Crypto markets. TradingView-style charting, copy-trading, and Claude-driven market analysis in one Next.js app.
