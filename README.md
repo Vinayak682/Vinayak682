@@ -5,7 +5,7 @@
 
 *3 years running real S&OP cycles in the UAE — now shipping AI products that fix the problems I lived every day.*
 
-[**Portfolio**](https://vinayak682.github.io/vinayakbhadani.github.io/) · [**LinkedIn — 7,000+ followers**](https://www.linkedin.com/in/vinayakbhadani/) · [**Email**](mailto:vinayakbhadani1998@gmail.com) · [**WhatsApp**](https://wa.me/971556270561) · [**Resume**](https://vinayak682.github.io/Vinayak-Bhadani-Resume-Demand-Planning-AI-Supply-Chain.pdf)
+[**Portfolio**](https://vinayak682.github.io/vinayakbhadani.github.io/) · [**LinkedIn — 7,000+ followers**](https://www.linkedin.com/in/vinayakbhadani/) · [**Instagram**](https://www.instagram.com/nextgensupplychain.ai) · [**Email**](mailto:vinayakbhadani1998@gmail.com) · [**WhatsApp**](https://wa.me/971556270561) · [**Resume**](https://vinayak682.github.io/Vinayak-Bhadani-Resume-Demand-Planning-AI-Supply-Chain.pdf)
 
 </div>
 
