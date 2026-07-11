@@ -1,0 +1,37 @@
+name: update-profile-art
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # daily, 02:17 UTC (~06:17 Dubai)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Scrape contributions + render heatmap
+        env:
+          GH_PROFILE_USER: Vinayak682
+        run: |
+          python scripts/fetch_contributions.py
+          python scripts/render_heatmap_svg.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contrib-heatmap.svg contributions.json
+          git diff --cached --quiet || git commit -m "chore: refresh contribution heatmap"
+          git push

@@ -1,0 +1,9 @@
+# One-time local image prep (portrait pipeline)
+pillow
+numpy
+opencv-python
+rembg
+onnxruntime
+# Contribution scraper (also in scripts/requirements.txt for CI)
+requests
+beautifulsoup4
