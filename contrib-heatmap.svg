@@ -383,6 +383,7 @@
 <rect x="768" y="116" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.142s"><title>2026-07-17: 0</title></rect>
 <rect x="768" y="130" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.146s"><title>2026-07-18: 0</title></rect>
 <rect x="782" y="46" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.144s"><title>2026-07-19: 0</title></rect>
+<rect x="782" y="60" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.148s"><title>2026-07-20: 0</title></rect>
 <text x="54" y="167"><tspan class="s">0d</tspan> current streak   ·   <tspan class="s">6d</tspan> longest streak</text>
 <text x="639" y="167" text-anchor="end">Less</text>
 <rect x="647" y="158" width="11" height="11" rx="2.5" fill="#161b22"/>
