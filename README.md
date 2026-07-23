@@ -53,7 +53,7 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 ## Recently Shipped
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
-- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-07-22)_
+- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-07-23)_
 - **[emirates-pride-inventory-management](https://github.com/Vinayak682/emirates-pride-inventory-management)** — iPad-optimised inventory management system for Emirates Pride retail outlets across Dubai — GRN, stock transfers, sales tracking, tester management & management reporting _(updated 2026-07-22)_
 - **[meridian](https://github.com/Vinayak682/meridian)** — Meridian — CFA-level multi-market (US · UK · UAE · Singapore) equity-research terminal: live TradingView data + a Supabase RAG/agentic brain (pgvector hybrid search, auditable multi-agent pipeline). Not investment advice. _(updated 2026-06-28)_
 - **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-06-16)_
