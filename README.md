@@ -53,8 +53,8 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 ## Recently Shipped
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
+- **[retail-inventory-ops](https://github.com/Vinayak682/retail-inventory-ops)** — iPad-optimised retail inventory management system — GRN, stock transfers, sales tracking, tester management & management reporting _(updated 2026-08-01)_
 - **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-07-28)_
-- **[retail-inventory-ops](https://github.com/Vinayak682/retail-inventory-ops)** — iPad-optimised retail inventory management system — GRN, stock transfers, sales tracking, tester management & management reporting _(updated 2026-07-25)_
 - **[meridian](https://github.com/Vinayak682/meridian)** — Meridian — CFA-level multi-market (US · UK · UAE · Singapore) equity-research terminal: live TradingView data + a Supabase RAG/agentic brain (pgvector hybrid search, auditable multi-agent pipeline). Not investment advice. _(updated 2026-06-28)_
 - **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-06-16)_
 - **[gcc-simulator](https://github.com/Vinayak682/gcc-simulator)** — GCC Business Simulator — Next.js 15 · Supabase · Google Gemini · 8 AI agents. by NayakLabs. _(updated 2026-06-15)_
