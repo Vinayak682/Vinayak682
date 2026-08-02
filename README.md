@@ -26,9 +26,11 @@
 
 | Product | What it does | Stack |
 |---------|-------------|-------|
+| **[GCC Demand Forecasting Benchmark](https://github.com/Vinayak682/gcc-demand-forecasting-benchmark)** | Reproducible backtest showing Hijri-aware calendar regressors cut WAPE 13% and collapse forecast bias from +9.5% to −3.1%. Hierarchical reconciliation across 6 levels. 37 tests, 2 CI accuracy gates | Python · statsforecast · hierarchicalforecast |
+| **[S&OP Decision Engine](https://github.com/Vinayak682/sop-decision-engine)** | Replenishment decisions computed from inventory policy — every number in the explanation traceable to the arithmetic. Nothing self-approves. 39 tests, 8 golden decision cases gating CI | Python · FastAPI · SQLite |
 | **[Meridian](https://github.com/Vinayak682/meridian)** | CFA-level multi-market equity-research terminal (US · UK · UAE · Singapore) — live TradingView data + a Supabase RAG brain with an auditable multi-agent research pipeline | Supabase · pgvector · Deno Edge Functions |
 | **[AlphaOS](https://github.com/Vinayak682/alphaos)** | AI-powered multi-market trading platform — TradingView charts, copy-trading & Claude-driven signals across US, India, UAE & Crypto markets | Next.js · TypeScript · Claude API |
-| **[Project Autopilot](https://github.com/Vinayak682/project-autopilot)** | Production-grade supply-chain intelligence platform with real-time metrics, live demos & autonomous AI-agent decision feed | Next.js · TypeScript · Supabase |
+| **[Project Autopilot](https://github.com/Vinayak682/project-autopilot)** | Supply-chain control-tower UI prototype — dashboards, simulator screens and a scripted decision feed. Front-end exploration, not a live decision system | Next.js · TypeScript · Supabase |
 | **[Emirates Pride Inventory](https://vinayak682.github.io/retail-inventory-ops/stock-register.html)** | iPad-optimised inventory system in **daily use** across Emirates Pride retail outlets in Dubai — GRN, stock transfers, sales & management reporting | HTML · JS · GitHub Pages (PWA) |
 | **[S&OP Copilot](https://sop-copilot.vercel.app)** | Runs Sunday night, delivers your Monday meeting brief before you wake up — AI briefing pack for UAE/GCC manufacturers | Claude API · Next.js · Supabase |
 | **[GCC Event Surge Planner](https://event-surge-planner.vercel.app)** | Per-SKU demand forecasting for Ramadan, Eid, DSF, White Friday & National Day. The only tool that knows Ramadan moves 11 days a year | Claude API · Next.js · Supabase |
