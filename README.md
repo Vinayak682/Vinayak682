@@ -53,12 +53,12 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 ## Recently Shipped
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
-- **[retail-inventory-ops](https://github.com/Vinayak682/retail-inventory-ops)** — iPad-optimised retail inventory management system — GRN, stock transfers, sales tracking, tester management & management reporting _(updated 2026-08-01)_
-- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-07-28)_
-- **[meridian](https://github.com/Vinayak682/meridian)** — Meridian — CFA-level multi-market (US · UK · UAE · Singapore) equity-research terminal: live TradingView data + a Supabase RAG/agentic brain (pgvector hybrid search, auditable multi-agent pipeline). Not investment advice. _(updated 2026-06-28)_
-- **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-06-16)_
-- **[gcc-simulator](https://github.com/Vinayak682/gcc-simulator)** — GCC Business Simulator — Next.js 15 · Supabase · Google Gemini · 8 AI agents. by NayakLabs. _(updated 2026-06-15)_
-- **[project-autopilot](https://github.com/Vinayak682/project-autopilot)** — AI-powered supply chain intelligence platform — real-time metrics, live demos & autonomous AI-agent decision feed. Next.js + TypeScript + Supabase. _(updated 2026-06-14)_
+- **[gcc-demand-forecasting-benchmark](https://github.com/Vinayak682/gcc-demand-forecasting-benchmark)** — Reproducible demand-forecasting benchmark for GCC retail: Hijri-aware calendar regressors cut WAPE 14% and collapse forecast bias from +8.5% to -0.6% _(updated 2026-08-02)_
+- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-08-02)_
+- **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-08-02)_
+- **[ai-supply-chain-platform](https://github.com/Vinayak682/ai-supply-chain-platform)** — AI-powered supply chain platform: OTIF Compliance Copilot + Exception Brain. Built with Claude API, Next.js 16, Supabase. UAE/GCC market. _(updated 2026-08-02)_
+- **[fuso-demand-dashboard](https://github.com/Vinayak682/fuso-demand-dashboard)** — Demand planning dashboard for UAE commercial vehicle distributor — ARIMA, Holt-Winters, ML ensemble forecasting with interactive visualizations. _(updated 2026-08-02)_
+- **[project-autopilot](https://github.com/Vinayak682/project-autopilot)** — AI-powered supply chain intelligence platform — real-time metrics, live demos & autonomous AI-agent decision feed. Next.js + TypeScript + Supabase. _(updated 2026-08-02)_
 <!-- RECENT_REPOS:END -->
 
 ---
