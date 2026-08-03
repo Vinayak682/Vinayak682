@@ -55,12 +55,12 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 ## Recently Shipped
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
-- **[gcc-demand-forecasting-benchmark](https://github.com/Vinayak682/gcc-demand-forecasting-benchmark)** — Reproducible demand-forecasting benchmark for GCC retail: Hijri-aware calendar regressors cut WAPE 14% and collapse forecast bias from +8.5% to -0.6% _(updated 2026-08-02)_
-- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-08-02)_
-- **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-08-02)_
-- **[ai-supply-chain-platform](https://github.com/Vinayak682/ai-supply-chain-platform)** — AI-powered supply chain platform: OTIF Compliance Copilot + Exception Brain. Built with Claude API, Next.js 16, Supabase. UAE/GCC market. _(updated 2026-08-02)_
+- **[gcc-simulator](https://github.com/Vinayak682/gcc-simulator)** — GCC Business Simulator — Next.js 15 · Supabase · Google Gemini · 8 AI agents. by NayakLabs. _(updated 2026-08-02)_
 - **[fuso-demand-dashboard](https://github.com/Vinayak682/fuso-demand-dashboard)** — Demand planning dashboard for UAE commercial vehicle distributor — ARIMA, Holt-Winters, ML ensemble forecasting with interactive visualizations. _(updated 2026-08-02)_
-- **[project-autopilot](https://github.com/Vinayak682/project-autopilot)** — AI-powered supply chain intelligence platform — real-time metrics, live demos & autonomous AI-agent decision feed. Next.js + TypeScript + Supabase. _(updated 2026-08-02)_
+- **[vinayak-portfolio-agent](https://github.com/Vinayak682/vinayak-portfolio-agent)** — Retrieval agent answering recruiter questions from source data. Local search runs with no API key. _(updated 2026-08-02)_
+- **[gcc-retail-calendar](https://github.com/Vinayak682/gcc-retail-calendar)** — Announced Ramadan and Eid dates for the six GCC states, with provenance, as forecasting regressors. Astronomical conversion gets the day wrong 53% of the time. _(updated 2026-08-02)_
+- **[gcc-demand-forecasting-benchmark](https://github.com/Vinayak682/gcc-demand-forecasting-benchmark)** — Reproducible demand-forecasting benchmark for GCC retail: Hijri-aware calendar regressors cut WAPE 14% and collapse forecast bias from +8.5% to -0.6% _(updated 2026-08-02)_
+- **[sop-decision-engine](https://github.com/Vinayak682/sop-decision-engine)** — S&OP replenishment decisions computed from inventory policy - every number in the explanation traceable to the arithmetic, nothing self-approves _(updated 2026-08-02)_
 <!-- RECENT_REPOS:END -->
 
 ---
