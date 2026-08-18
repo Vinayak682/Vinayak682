@@ -55,7 +55,7 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 ## Recently Shipped
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
-- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-08-17)_
+- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-08-18)_
 - **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-08-16)_
 - **[gcc-demand-forecasting-benchmark](https://github.com/Vinayak682/gcc-demand-forecasting-benchmark)** — Reproducible demand-forecasting benchmark for GCC retail: Hijri-aware calendar regressors cut WAPE 14% and collapse forecast bias from +8.5% to -0.6% _(updated 2026-08-15)_
 - **[gcc-simulator](https://github.com/Vinayak682/gcc-simulator)** — GCC Business Simulator — Next.js 15 · Supabase · Google Gemini · 8 AI agents. by NayakLabs. _(updated 2026-08-15)_
