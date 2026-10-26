@@ -55,7 +55,7 @@ Deploy:       Vercel · GitHub Pages · GitHub Actions
 ## Recently Shipped
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
-- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-10-21)_
+- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-10-26)_
 - **[bizops-crash-course](https://github.com/Vinayak682/bizops-crash-course)** — Beginner crash course for a Biz Ops demand planning interview: concepts, calculators, flashcards, quiz, 2-day plan _(updated 2026-10-21)_
 - **[Interview-Prep](https://github.com/Vinayak682/Interview-Prep)** — Interview Preparation  _(updated 2026-10-14)_
 - **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-09-26)_
