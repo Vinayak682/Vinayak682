@@ -34,6 +34,7 @@ jobs:
           python3 - "$BLOCK" <<'PY'
           import re, sys
           block = sys.argv[1]
+          block = block.replace(" \u2014 ", " \u00b7 ").replace("\u2014", "-")
           with open("README.md", "r", encoding="utf-8") as f:
               readme = f.read()
           new = ("<!-- RECENT_REPOS:START -->\n"

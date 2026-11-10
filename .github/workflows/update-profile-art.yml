@@ -27,11 +27,12 @@ jobs:
         run: |
           python scripts/fetch_contributions.py
           python scripts/render_heatmap_svg.py
+          python scripts/render_editorial.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contrib-heatmap.svg contributions.json
-          git diff --cached --quiet || git commit -m "chore: refresh contribution heatmap"
+          git add contrib-heatmap.svg contributions.json cards/
+          git diff --cached --quiet || git commit -m "chore: refresh contribution cards"
           git push

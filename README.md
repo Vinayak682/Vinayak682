@@ -1,81 +1,49 @@
-<div align="center">
+<a href="https://vinayakbhadani.com/"><img src="cards/hero.svg" width="100%" alt="Vinayak Bhadani, Demand Planner and AI supply chain builder, Dubai" /></a>
 
-# Vinayak Bhadani
-### Demand Planning · AI Supply Chain · Full-Stack Builder — Dubai, UAE
+<img src="cards/daily.svg" width="100%" alt="Contribution calendar in blue, refreshed daily" />
 
-*3 years running real S&OP cycles in the UAE — now shipping AI products that fix the problems I lived every day.*
+<img src="cards/contrib.svg" width="100%" alt="Contributions over the last 12 months" />
 
-[**Portfolio**](https://vinayak682.github.io/vinayakbhadani.github.io/) · [**LinkedIn — 7,000+ followers**](https://www.linkedin.com/in/vinayakbhadani/) · [**Instagram**](https://www.instagram.com/nextgensupplychain.ai) · [**Email**](mailto:vinayakbhadani1998@gmail.com) · [**WhatsApp**](https://wa.me/971556270561) · [**Resume**](https://vinayak682.github.io/Vinayak-Bhadani-Resume-Demand-Planning-AI-Supply-Chain.pdf)
+<a href="https://vinayakbhadani.com/"><img src="cards/tiles.svg" width="100%" alt="Build: 14+ live tools. Brand: 7,000+ followers. Plan: S&OP across 20+ GCC duty-free airports" /></a>
 
-</div>
+<img src="cards/t-shipping.svg" width="100%" alt="What I'm shipping" />
 
-<table align="center">
-<tr>
-<td width="380" align="center" valign="top"><img src="avi-ascii.svg" width="370" alt="ASCII portrait of Vinayak Bhadani" /></td>
-<td width="500" align="center" valign="top"><img src="info-card.svg" width="490" alt="vinayak@dubai terminal info card" /></td>
-</tr>
-</table>
+<p>
+<a href="https://vinayakbhadani.com/"><img src="cards/p-supplymind-hub.svg" width="32.6%" alt="SupplyMind hub" /></a>
+<a href="https://vinayak-portfolio-next.vercel.app/"><img src="cards/p-planning-portfolio.svg" width="32.6%" alt="Planning portfolio" /></a>
+<a href="https://github.com/Vinayak682/gcc-demand-forecasting-benchmark"><img src="cards/p-gcc-forecasting-benchmark.svg" width="32.6%" alt="GCC demand forecasting benchmark" /></a>
+</p>
+<p>
+<a href="https://github.com/Vinayak682/sop-decision-engine"><img src="cards/p-sop-decision-engine.svg" width="32.6%" alt="S&OP decision engine" /></a>
+<a href="https://vinayakbhadani.com/alphaos-agentic-trading-platform.html"><img src="cards/p-alphaos.svg" width="32.6%" alt="AlphaOS" /></a>
+<a href="https://tradeforge-five-pi.vercel.app/"><img src="cards/p-tradeforge.svg" width="32.6%" alt="TradeForge" /></a>
+</p>
 
-<div align="center">
-<img src="contrib-heatmap.svg" width="880" alt="GitHub contribution heatmap — auto-updated daily" />
-</div>
+### Also live
 
----
+- **[AI Forecast Audits](https://vinayakbhadani.com/hire.html)** · independent out-of-sample check: does your AI forecast beat a seasonal naive baseline?
+- **[AI-Ready Supply Chain Academy](https://vinayakbhadani.com/academy/)** · planning, S&OP, PSI and ERP master data training for working professionals
+- **[Supply Planning Workbench](https://african-eastern-supply-planner.vercel.app/)** · S&OP supply planning and purchase order recommendation cockpit
+- **[P2P Desk](https://p2p-desk-demo.vercel.app/)** · procure-to-pay operations demo on dummy data
+- **[Trade-show sourcing app](https://beautyworld-2026.vercel.app/)** · scan supplier QR codes, log samples with photos, export per supplier
+- **[S&OP Copilot](https://sop-copilot.vercel.app/)** and **[Event Surge Planner](https://event-surge-planner.vercel.app/)** · Monday S&OP brief and Ramadan / Eid / DSF demand surges for GCC brands
+- **Stock Register app** · iPad inventory system in daily use by 50-70 retail staff (internal, not public)
 
-## Live AI Products
-
-| Product | What it does | Stack |
-|---------|-------------|-------|
-| **[GCC Demand Forecasting Benchmark](https://github.com/Vinayak682/gcc-demand-forecasting-benchmark)** | Reproducible backtest showing Hijri-aware calendar regressors cut WAPE 13% and collapse forecast bias from +9.5% to −3.1%. Hierarchical reconciliation across 6 levels. 37 tests, 2 CI accuracy gates | Python · statsforecast · hierarchicalforecast |
-| **[S&OP Decision Engine](https://github.com/Vinayak682/sop-decision-engine)** | Replenishment decisions computed from inventory policy — every number in the explanation traceable to the arithmetic, nothing self-approves. Wired to the forecaster above, it carries **20% less safety stock at the same service level**. 61 tests, 8 golden decision cases gating CI | Python · FastAPI · SQLite |
-| **[Meridian](https://github.com/Vinayak682/meridian)** | CFA-level multi-market equity-research terminal (US · UK · UAE · Singapore) — live TradingView data + a Supabase RAG brain with an auditable multi-agent research pipeline | Supabase · pgvector · Deno Edge Functions |
-| **[AlphaOS](https://github.com/Vinayak682/alphaos)** | AI-powered multi-market trading platform — TradingView charts, copy-trading & Claude-driven signals across US, India, UAE & Crypto markets | Next.js · TypeScript · Claude API |
-| **[Project Autopilot](https://github.com/Vinayak682/project-autopilot)** | Supply-chain control-tower UI prototype — dashboards, simulator screens and a scripted decision feed. Front-end exploration, not a live decision system | Next.js · TypeScript · Supabase |
-| **[Emirates Pride Inventory](https://vinayak682.github.io/retail-inventory-ops/stock-register.html)** | iPad-optimised inventory system in **daily use** across Emirates Pride retail outlets in Dubai — GRN, stock transfers, sales & management reporting | HTML · JS · GitHub Pages (PWA) |
-| **[S&OP Copilot](https://sop-copilot.vercel.app)** | Runs Sunday night, delivers your Monday meeting brief before you wake up — AI briefing pack for UAE/GCC manufacturers | Claude API · Next.js · Supabase |
-| **[GCC Event Surge Planner](https://event-surge-planner.vercel.app)** | Per-SKU demand forecasting for Ramadan, Eid, DSF, White Friday & National Day. The only tool that knows Ramadan moves 11 days a year | Claude API · Next.js · Supabase |
-| **[AI Supply Chain Platform](https://vinayak682.github.io/ai-supply-chain-platform/)** | OTIF Compliance Copilot + Exception Brain — two AI modules for supply-chain exception management | Python · Claude API · Supabase |
-
----
-
-## Tech Stack
-
-```
-Languages:    Python · TypeScript · SQL · DAX
-AI/ML:        Claude API · Prompt Engineering · Demand Forecasting (ARIMA, Holt-Winters, ML ensemble)
-Frontend:     Next.js · TailwindCSS · shadcn/ui · React · Framer Motion
-Backend:      Supabase (PostgreSQL + Auth + RLS) · REST APIs
-BI Tools:     Power BI · Excel (Advanced) · Google Sheets
-Supply Chain: S&OP · Demand Planning · Procurement · OTIF · Inventory Optimization
-Deploy:       Vercel · GitHub Pages · GitHub Actions
-```
-
----
-
-## Recently Shipped
+### Recently pushed
 <!-- RECENT_REPOS:START -->
 <!-- This section auto-updates daily via GitHub Actions -->
-- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** — Portfolio site — Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-11-09)_
-- **[confeitaria-by-minty](https://github.com/Vinayak682/confeitaria-by-minty)** — Confeitaria by Minty — boutique bakery web experience. JavaScript. _(updated 2026-11-06)_
-- **[alphaos](https://github.com/Vinayak682/alphaos)** — Agentic multi-market trading platform whose walk-forward test says its own strategies don't beat buy-and-hold. Multi-agent research, AI signals, client-side backtesting. Next.js 16 + Supabase + Groq. _(updated 2026-11-01)_
-- **[bizops-crash-course](https://github.com/Vinayak682/bizops-crash-course)** — Beginner crash course for a Biz Ops demand planning interview: concepts, calculators, flashcards, quiz, 2-day plan _(updated 2026-10-21)_
-- **[Interview-Prep](https://github.com/Vinayak682/Interview-Prep)** — Interview Preparation  _(updated 2026-10-14)_
-- **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** — Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-09-26)_
+- **[vinayakbhadani.github.io](https://github.com/Vinayak682/vinayakbhadani.github.io)** · Portfolio site · Demand Planning Analyst & AI Supply Chain Builder based in Dubai, UAE _(updated 2026-11-09)_
+- **[confeitaria-by-minty](https://github.com/Vinayak682/confeitaria-by-minty)** · Confeitaria by Minty · boutique bakery web experience. JavaScript. _(updated 2026-11-06)_
+- **[alphaos](https://github.com/Vinayak682/alphaos)** · Agentic multi-market trading platform whose walk-forward test says its own strategies don't beat buy-and-hold. Multi-agent research, AI signals, client-side backtesting. Next.js 16 + Supabase + Groq. _(updated 2026-11-01)_
+- **[bizops-crash-course](https://github.com/Vinayak682/bizops-crash-course)** · Beginner crash course for a Biz Ops demand planning interview: concepts, calculators, flashcards, quiz, 2-day plan _(updated 2026-10-21)_
+- **[Interview-Prep](https://github.com/Vinayak682/Interview-Prep)** · Interview Preparation  _(updated 2026-10-14)_
+- **[Vinayak682.github.io](https://github.com/Vinayak682/Vinayak682.github.io)** · Vinayak Bhadani – Demand Planning Analyst | Dubai, UAE _(updated 2026-09-26)_
 <!-- RECENT_REPOS:END -->
 
----
-
-## Let's Connect
-
-Actively targeting senior **Demand Planning / Supply Chain** roles across UAE's top FMCG, Retail, and Q-Commerce companies — and open to AI-product collaborations.
-
-- **Portfolio:** [vinayak682.github.io/vinayakbhadani.github.io](https://vinayak682.github.io/vinayakbhadani.github.io/)
-- **LinkedIn:** [linkedin.com/in/vinayakbhadani](https://www.linkedin.com/in/vinayakbhadani/)
-- **Email:** vinayakbhadani1998@gmail.com
-- **Location:** Dubai, UAE
-
----
-
-<div align="center">
-<i>"I don't just plan supply chains — I build the tools that plan them better."</i>
-</div>
+<p align="center">
+<a href="https://vinayakbhadani.com/">vinayakbhadani.com</a> &nbsp;/&nbsp;
+<a href="https://www.linkedin.com/in/vinayakbhadani/">linkedin</a> &nbsp;/&nbsp;
+<a href="https://www.instagram.com/nextgensupplychain.ai">instagram</a> &nbsp;/&nbsp;
+<a href="https://vinayakbhadani.com/Vinayak-Bhadani-Resume-Demand-Planning-AI-Supply-Chain.pdf">resume</a> &nbsp;/&nbsp;
+<a href="mailto:vinayakbhadani1998@gmail.com">email</a>
+</p>
