@@ -24,8 +24,10 @@ jobs:
       - name: Scrape contributions + render heatmap
         env:
           GH_PROFILE_USER: Vinayak682
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/fetch_contributions.py
+          python scripts/fetch_commits.py
           python scripts/render_heatmap_svg.py
           python scripts/render_editorial.py
 
@@ -33,6 +35,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add contrib-heatmap.svg contributions.json cards/
+          git add contrib-heatmap.svg contributions.json commits.json cards/
           git diff --cached --quiet || git commit -m "chore: refresh contribution cards"
           git push

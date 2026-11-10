@@ -36,6 +36,15 @@ KICKER = "DEMAND PLANNER  ·  AI SUPPLY CHAIN BUILDER  ·  DUBAI"
 TAGLINE = ["I plan demand for GCC retail and build the AI tools",
            "that make planning faster. Then I teach it."]
 SITE = "vinayakbhadani.com"
+NOW = [
+    ("Building SupplyMind", "agentic planning tools for the GCC"),
+    ("APICS CPIM", "in progress, Feb 2027"),
+    ("Open to planning roles", "demand / S&OP, UAE"),
+    ("Teaching", "AI-Ready Supply Chain Academy"),
+]
+# Real counts outside GitHub's calendar (update when they change)
+LIVE_APPS = 13      # production apps on Vercel (vercel project ls)
+REELS = 55          # SupplyMind Reels built in code (HyperFrames + GSAP)
 
 TILES = [
     ("BUILD", BLUE, "#FFFFFF", "14+ live tools",
@@ -150,25 +159,27 @@ def hero():
     for i, line in enumerate(TAGLINE):
         c.text(42, 246 + i * 18, line, "mono", 12, MUTE, 0, cls="u", extra=f'style="animation-delay:{.5+i*.1:.1f}s"')
     c.text(W - 40, 270, SITE + "  ↗", "mono-b", 11, INK, 1, "end")
-    # stippled portrait from the existing ASCII art
-    rows = ascii_rows()
-    if rows:
-        maxw = max(len(r) for r in rows)
-        fs = min(230 / (maxw * .6), 250 / (len(rows) * 1.02))
-        x0, y0 = W - 40 - maxw * fs * .6, 26
-        g = [f'<g class="sk" font-family="\'PM\',monospace" font-size="{fs:.2f}" fill="{FAINT}" xml:space="preserve">']
-        for i, r in enumerate(rows):
-            if r.strip():
-                g.append(f'<text x="{x0:.1f}" y="{y0 + (i+1)*fs*1.02:.1f}">{html.escape(r)}</text>')
-                c.used["mono"] += r
-        g.append("</g>")
-        c.raw("".join(g))
+    # right column: what's happening now
+    x = W - 300
+    c.raw(f'<line x1="{x-24}" y1="70" x2="{x-24}" y2="252" stroke="{LINE}"/>')
+    c.text(x, 84, "NOW", "mono", 10, MUTE, 1.6)
+    for i, (big, small) in enumerate(NOW):
+        y = 116 + i * 40
+        c.raw(f'<circle cx="{x+4}" cy="{y-5}" r="3.5" fill="{[BLUE, RED, YELLOW][i % 3]}"/>')
+        c.text(x + 16, y, big, "mono-b", 12, INK)
+        c.text(x + 16, y + 16, small, "mono", 10.5, MUTE)
     c.save("hero.svg")
 
 
 def load_days():
+    """GitHub calendar merged with commits.json (commits from emails GitHub does not
+    credit). Per day we take the larger of the two, so nothing is double-counted."""
     d = json.load(open(os.path.join(ROOT, "contributions.json")))["days"]
-    return [(dt.date.fromisoformat(x["date"]), x["count"]) for x in d][-371:]
+    cal = {x["date"]: x["count"] for x in d}
+    cp = os.path.join(ROOT, "commits.json")
+    extra = json.load(open(cp))["days"] if os.path.exists(cp) else {}
+    keys = sorted(cal)
+    return [(dt.date.fromisoformat(k), max(cal[k], extra.get(k, 0))) for k in keys][-371:]
 
 
 def daily(days):
@@ -231,11 +242,13 @@ def stats(days):
 def contrib(days):
     total, active, busiest, longest, cur, months = stats(days)
     c = Card(W, 270)
-    c.text(40, 48, "THE LAST 12 MONTHS ON GITHUB", "mono", 10, MUTE, 1.6)
-    c.text(40, 92, f"{total:,} contributions", "serif-i", 40, INK, -.5)
+    c.text(40, 48, "THE LAST 12 MONTHS", "mono", 10, MUTE, 1.6)
+    c.text(40, 92, "Shipped,", "serif", 40, INK, -.5)
+    c.text(40 + measure("Shipped, ", "serif", 40), 92, "not just committed", "serif-i", 40, BLUE, -.5)
+    c.text(40, 118, f"{total:,} commits and contributions on GitHub, plus everything below", "mono", 10.5, MUTE)
     mx = max(months.values()) or 1
     top = max(months, key=months.get)
-    bw, gap, base, hmax = 36, 10, 226, 104
+    bw, gap, base, hmax = 36, 10, 232, 88
     c.css.append("@keyframes g{from{transform:scaleY(0)}to{transform:scaleY(1)}}"
                  ".b{transform-box:fill-box;transform-origin:bottom;animation:g .7s cubic-bezier(.2,.7,.2,1) backwards}")
     now = dt.date.today()
@@ -249,9 +262,9 @@ def contrib(days):
             c.text(x + bw / 2, base - h - 7, f"{v:,}", "mono-b", 9, BLUE, 0, "middle")
     sx = 40 + 12 * (bw + gap) + 34
     c.raw(f'<line x1="{sx-18}" y1="40" x2="{sx-18}" y2="242" stroke="{LINE}"/>')
-    rows = [(f"{longest} days", "longest streak" + (f", {cur} running" if cur else "")),
-            (f"{active} / 365", "days with a commit"),
-            (f"{busiest}", "on the busiest day")]
+    rows = [(f"{LIVE_APPS} live apps", "in production on Vercel"),
+            (f"{REELS} Reels", "built in code, not an editor"),
+            (f"{busiest} in a day", f"busiest day, {active} active days")]
     for i, (big, small) in enumerate(rows):
         y = 84 + i * 66
         c.text(sx, y, big, "serif", 30, INK, -.3)

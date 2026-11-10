@@ -1,5 +1,12 @@
 <a href="https://vinayakbhadani.com/"><img src="cards/hero.svg" width="100%" alt="Vinayak Bhadani, Demand Planner and AI supply chain builder, Dubai" /></a>
 
+<table align="center">
+<tr>
+<td width="380" align="center" valign="top"><img src="avi-ascii.svg" width="370" alt="ASCII portrait of Vinayak Bhadani" /></td>
+<td width="500" align="center" valign="top"><img src="info-card.svg" width="490" alt="vinayak@dubai terminal info card" /></td>
+</tr>
+</table>
+
 <img src="cards/daily.svg" width="100%" alt="Contribution calendar in blue, refreshed daily" />
 
 <img src="cards/contrib.svg" width="100%" alt="Contributions over the last 12 months" />
