@@ -214,14 +214,14 @@
 <rect x="432" y="102" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.610s"><title>2026-06-04: 0</title></rect>
 <rect x="432" y="116" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.614s"><title>2026-06-05: 0</title></rect>
 <rect x="432" y="130" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.618s"><title>2026-06-06: 0</title></rect>
-<rect x="446" y="46" width="11" height="11" rx="2.5" fill="#576069" class="c" style="animation-delay:0.616s"><title>2026-06-07: 16</title></rect>
+<rect x="446" y="46" width="11" height="11" rx="2.5" fill="#98a3ad" class="c" style="animation-delay:0.616s"><title>2026-06-07: 16</title></rect>
 <rect x="446" y="60" width="11" height="11" rx="2.5" fill="#2d333b" class="c" style="animation-delay:0.620s"><title>2026-06-08: 7</title></rect>
 <rect x="446" y="74" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.624s"><title>2026-06-09: 0</title></rect>
 <rect x="446" y="88" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.628s"><title>2026-06-10: 0</title></rect>
 <rect x="446" y="102" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.632s"><title>2026-06-11: 0</title></rect>
 <rect x="446" y="116" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.636s"><title>2026-06-12: 0</title></rect>
 <rect x="446" y="130" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.640s"><title>2026-06-13: 0</title></rect>
-<rect x="460" y="46" width="11" height="11" rx="2.5" fill="#2d333b" class="c" style="animation-delay:0.638s"><title>2026-06-14: 8</title></rect>
+<rect x="460" y="46" width="11" height="11" rx="2.5" fill="#576069" class="c" style="animation-delay:0.638s"><title>2026-06-14: 8</title></rect>
 <rect x="460" y="60" width="11" height="11" rx="2.5" fill="#576069" class="c" style="animation-delay:0.642s"><title>2026-06-15: 11</title></rect>
 <rect x="460" y="74" width="11" height="11" rx="2.5" fill="#2d333b" class="c" style="animation-delay:0.646s"><title>2026-06-16: 6</title></rect>
 <rect x="460" y="88" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.650s"><title>2026-06-17: 0</title></rect>
@@ -290,7 +290,7 @@
 <rect x="586" y="88" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.848s"><title>2026-08-19: 0</title></rect>
 <rect x="586" y="102" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.852s"><title>2026-08-20: 0</title></rect>
 <rect x="586" y="116" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.856s"><title>2026-08-21: 0</title></rect>
-<rect x="586" y="130" width="11" height="11" rx="2.5" fill="#2d333b" class="c" style="animation-delay:0.860s"><title>2026-08-22: 8</title></rect>
+<rect x="586" y="130" width="11" height="11" rx="2.5" fill="#576069" class="c" style="animation-delay:0.860s"><title>2026-08-22: 8</title></rect>
 <rect x="600" y="46" width="11" height="11" rx="2.5" fill="#e6edf3" class="c" style="animation-delay:0.858s"><title>2026-08-23: 31</title></rect>
 <rect x="600" y="60" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.862s"><title>2026-08-24: 0</title></rect>
 <rect x="600" y="74" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:0.866s"><title>2026-08-25: 0</title></rect>
@@ -383,6 +383,7 @@
 <rect x="768" y="116" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.142s"><title>2026-11-20: 0</title></rect>
 <rect x="768" y="130" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.146s"><title>2026-11-21: 0</title></rect>
 <rect x="782" y="46" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.144s"><title>2026-11-22: 0</title></rect>
+<rect x="782" y="60" width="11" height="11" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.148s"><title>2026-11-23: 0</title></rect>
 <text x="54" y="167"><tspan class="s">0d</tspan> current streak   ·   <tspan class="s">6d</tspan> longest streak</text>
 <text x="639" y="167" text-anchor="end">Less</text>
 <rect x="647" y="158" width="11" height="11" rx="2.5" fill="#161b22"/>
